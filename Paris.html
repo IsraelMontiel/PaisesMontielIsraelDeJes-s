@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Blog PQG">
+  <meta name="keywords" content="México,Tokyo,Londres,Paris,Argentina,Australia">
+    <!-- Cuidado con el tiempo de recarga
+    <meta http‐equiv="refresh" content="20;URL=./1DivSemanticaEstilos.htm" >
+    -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"  type="text/css" href="css/estiloPais.css">
+  <title>título PQG</title>
+
+  <style>
+body {
+    margin: 0;
+}
+
+ul {
+/*Color del menu lateral*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width:15%;
+    background-color:#FF8C00;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+/*Color de los demas rectangulos*/
+li a:hover:not(.active) {
+    background-color: #DEB887;
+    color: white;
+}
+/*Color de la letra*/
+li a {
+    display: block;
+    color: black;
+    padding: 8px 20px;
+    text-decoration: none;
+}
+/*Color del rectangulo seleccionado*/
+li a.active {
+    background-color: yellowgreen;
+    color: white;
+}
+
+a:hover{
+  transform: scaleY(1.3);
+  font-style:  arial ;
+}
+</style>
+  <ul>
+    <li><h3><center><a style="color: black;"href="index.html">Inicio</a></center></h3></li>
+    <li><h3><center><a style="color: black;" href="Mexico.html">M&eacute;xico</a></center></h3></li>
+    <li><h3><center><a style="color: black;" href="Australia.html">Australia</a></center></h3></li>
+    <li><h3><center><a style="color: black;" href="Tokyo.html">Tokyo</a></center></h3></li>
+    <li><h3><center><a style="color: black;"href="Londres.html">Londres</a></center></h3></li>
+    <li><h3><center><a style="color: black;"href="Argentina.html">Argentina</a></center></h3></li>
+  </ul>
+</head>
+
+
+<body>
+
+<div class="contenedor">
+
+<header>
+   <h1>Galeria de Ciudades</h1>
+</header>
+
+<!--<nav>
+  <ul>
+    <h2><li><a href="index.html">Inicio</a></li></h2>
+    <h2><li><a style="color: black;" href="Mexico.html">M&eacute;xico</a></li></h2>
+    <h2><li><a style="color: black;"href="Argentina.html">Australia</a></li></h2>
+    <h2><li><a style="color: black;" href="Tokyo.html">Tokyo</a></li></h2>
+    <h2><li><a style="color: black;"href="Londres.html">Londres</a></li></h2>
+    <h2><li><a style="color: black;"href="Australia.html">Australia</a></li></h2>
+   </ul>
+  </nav>-->
+  <section>
+  	<article class="banderaPar">
+  	   <h1> <span id="paris">Par&iacute;s</span></h1>
+  	   <p>París, la capital de Francia, es una importante ciudad europea y un centro mundial del arte, la moda, la gastronomía y la cultura.</p>
+    	 <p>Su paisaje urbano del siglo XIX está entrecruzado por amplios bulevares y el río Sena. Aparte de estos hitos, como la Torre Eiffel y la catedral gótica de Notre Dame del siglo XII, la ciudad es famosa por su cultura del café y las tiendas de moda de diseñador a lo largo de la calle Rue du Faubourg Saint-Honoré.</p>
+        </article>
+  </section>
+  <footer>Copyright &copy; itorizaba.edu.mx</footer>
+
+</div>
+
+<br>
+<h2><a href="index.html">Volver al inicio</a></h2>
+</body>
+</html>
